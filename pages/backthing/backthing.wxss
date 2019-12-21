@@ -1,0 +1,21 @@
+.title
+{
+  color:red;
+    text-align: center;
+}
+.taps
+{
+  background-color: yellow;
+  color:red;
+}
+.input1
+{
+    border: 10px rgb(1, 4, 15) solid ;
+  text-align: center;
+}
+page{
+  background: bisque;
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

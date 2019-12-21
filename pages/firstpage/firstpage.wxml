@@ -1,0 +1,36 @@
+<view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}'  data-current = "0" bindtap='checkCurrent'>声音</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}'  data-current = "1" bindtap='checkCurrent'>时长</view>
+    <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}'  data-current = "2" bindtap='checkCurrent'>备忘录</view>
+</view>
+
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+
+  <swiper-item>                                   
+  <view>
+  <view class='swiper_con'>请选择声音</view>
+<button bindtap="tap1" class="button">声音1</button>
+<button bindtap="tap2" class="button">声音2</button>
+<button bindtap="tap3" class="button">声音3</button>
+<image src="/images/dl.jpg" calss="image"></image>
+  </view>
+  </swiper-item> 
+
+  <swiper-item>
+
+<button size="mini" type="default"  plain="true" class='form-code-btn' bindtap='sendCode' style='color:{{color}}; border-color: {{color}};background-color:#FFF;' disabled="{{disabled}}">{{getCode}}</button>
+<button bindtap="addtime">增加时间</button>
+<button bindtap="cuttime">减小时间</button>
+  </swiper-item>  
+
+<swiper-item>
+  <view>
+  <view class='swiper_con'>添加备忘录</view>
+  <image src="/images/dm.jpg"></image>
+ <button bindtap="addthing" class="button">点我添加</button>
+  </view>
+</swiper-item>
+
+</swiper>
+
+

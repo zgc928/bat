@@ -1,0 +1,72 @@
+body{background-color:#B8BFD8;}
+.tab{float: left; width: 33.3333%;text-align: center;padding: 10rpx 0;color:red }
+.topTabSwiper{border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; zoom: 1;}
+.topTabSwiper:after{content: ""; clear: both;display: block;}
+.tabBorer{border-bottom: 1px solid #f00; color: #f00;}
+.swiper{width: 100%;}
+.swiper_con{text-align: center; width: 100%; height: 100%; padding: 80rpx 0;}
+.button{
+color:red;
+background:yellow
+}
+
+.input{
+  
+  border: 10px rgb(1, 4, 15) solid ;
+  text-align: center;
+}
+
+.title{
+  color:red;
+  size:600px
+  
+}
+.answer{
+  background: green;
+}
+
+.yun{
+  background:red;
+}
+
+.stand{
+  font-size:20px;
+  font-weight:bold;
+  color:red
+}
+
+.number{
+font-size:25px;
+font-weight:bold;
+color:brown
+
+}
+
+.tap1{
+font-size:20px;
+font-weight:bold;
+color:red;
+background:gainsboro;
+}
+
+.photo1{
+  background: red;
+}
+page {
+  background:bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.puton{
+  color:blue;
+  background:#B8BFD8;
+}
+.result1{
+  color: rgb(83, 81, 52);
+  text-align: center;
+}
+.intro {
+  margin: 30px;
+  text-align: center;
+}

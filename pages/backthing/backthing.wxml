@@ -1,0 +1,4 @@
+<view class="title">备忘列表</view>
+<button bindtap="addthings" class="taps">添加</button>
+<button bindtap="downthings" class="taps">删除</button>
+<input bindinput="input" placeholder="请输入要添加的内容" class="input1"  placeholder-style="color:#F76260"></input>
